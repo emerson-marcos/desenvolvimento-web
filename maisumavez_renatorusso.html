@@ -1,58 +1,77 @@
 <!DOCTYPE html>
-
+    <!-- IDENTAÇÃO DO CODIGO 
+        Ela também ajuda a entender a hierarquia de elementos em código HTML -->
 <html>
     <head>
         <title>Document</title>
         <meta charset="UTF-8">
     </head>
-
     <body>
         <H1>LETRAS</H1>
-
         <form action="">
             <label for="musica">Digite algo para buscar:
                 <input type="text" name="" id="musica" placeholder="O que você quer ouvir agora"> 
             </label>
         </form>
-
         <h3>Mais uma vez</h3>
-
         <h4>Renato Russo</h4>
-
         <picture>
-            <img src="C:/Users/Marcos/Documents/Web/desenvolvimento-web/img/Renato_Russo.jpg" alt="Renato" style="width:auto">
+            <!-- A gente só colcoar o src assim se for rodar a pagina direto do arquivo html, em servidores o endereço tem que vir da raiz do projeto -->
+            <!-- Então "C:/Users/Marcos/Documents/Web/desenvolvimento-web/img/Renato_Russo.jpg" fica  "img/Renato_Russo.jpg" --> 
+            <img src="img/Renato_Russo.jpg" alt="Renato" style="width:auto">
         </picture>
-
         
-            <p>Mais é claro que o Sol vai voltar amanhã</p> <p>Mais uma vez, eu sei</p> <p>Escuridão já vi pior, de endoidecer gente sã</p>
-            <p>Espera que o Sol já vem</p></br> <p>Tem gente que está do mesmo lado que você</p> <p>Mas deveria estar do lado de lá</p>
-            <p>Tem gente que machuca os outros</p> <p>Tem gente que não sabe amar</p> <p>Tem gente enganando a gente</p>
-            <p>Veja a nossa vida como está</p> <p>Mas eu sei que um dia a gente aprende</p> <p>Se você quiser alguém em quem confiar</p>
-            <p>Confie em si mesmo</p> <p>Quem acredita sempre alcança!</p> </br> <p>Mas é claro que o Sol vai voltar amanhã</p>  
-            <p>Mais uma vez, eu sei</p> <p>Escuridão já vi pior, de endoidecer gente sã</p> <p>Espera que o Sol já vem</p></br>
-            <p>Nunca deixe que lhe digam que não vale a pena</p> <p>Acreditar no sonho que se tem</p> <p>Ou que seus planos nunca vão dar certo</p>
-            <p>Ou que você nunca vai ser alguém</p> <p>Tem gente que machuca os outros</p> <p>Tem gente que não sabe amar</p>
-            <p>Mas eu sei que um dia a gente aprende</p> <p>Se você quiser alguém em quem confiar</p> <p>Confie em si mesmo</p>
-            <p>Quem acredita sempre alcança!</p></br>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p>
-            <p>Quem acredita sempre alcança!</p></br>
-        
-
-        <p><strong>Composição:</strong> <em>Flávio Venturini / Renato Russo</em> </p>
-
+        <!-- A tag <p><p/> aceita outras dentro como <br /> <span></span> <em></em> e quaisquer outras de texto -->
+            <!-- Não precisa criar mais tags <p></p> em casos de textos corridos com quebras (ou palavras em negritos italico etc) de linhas como esse abaixo -->
+        <p>
+            Mas é claro que o Sol vai voltar amanhã <br />
+            Mais uma vez, eu sei <br />
+            Escuridão já vi pior, de endoidecer gente sã <br />
+            Espera que o Sol já vem <br /><br />
+            Tem gente que está do mesmo lado que você <br />
+            Mas deveria estar do lado de lá <br />
+            Tem gente que machuca os outros <br />
+            Tem gente que não sabe amar <br />
+            Tem gente enganando a gente <br />
+            Veja a nossa vida como está <br />
+            Mas eu sei que um dia a gente aprende <br />
+            Se você quiser alguém em quem confiar <br />
+            Confie em si mesmo <br />
+            Quem acredita sempre alcança! <br /><br />
+            Mas é claro que o Sol vai voltar amanhã <br />
+            Mais uma vez, eu sei <br />
+            Escuridão já vi pior, de endoidecer gente sã <br />
+            Espera que o Sol já vem <br /><br />
+            Nunca deixe que lhe digam que não vale a pena<br />
+            Acreditar no sonho que se tem<br />
+            Ou que seus planos nunca vão dar certo<br />
+            Ou que você nunca vai ser alguém<br />
+            Tem gente que machuca os outros<br />
+            Tem gente que não sabe amar<br />
+            Mas eu sei que um dia a gente aprende<br />
+            Se você quiser alguém em quem confiar<br />
+            Confie em si mesmo<br />
+            Quem acredita sempre alcança!<br /><br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br />
+            Quem acredita sempre alcança!<br /><br />
+        </p>
+        <!-- AQUI UM EXEMPLO DA TAG <p></p> com outras dentro -->
+        <p>
+            <strong>Composição:</strong>
+            <em>Flávio Venturini / Renato Russo</em>
+        </p>
         <a href="https://www.letras.mus.br/renato-russo/1213616/">Essa informação está errada? Nos avise.</a>
-
         <footer>
             <h4>Siga o letras</h4>
-
             <aside>
                 <nav>
                     <ul>
+                        <!-- AQUI FALTA OS LINKS DAS REDES SOCIAIS -->
                         <li><a href="">Youtube</a> </li>
                         <li><a href="">Facebook</a></li>
                         <li><a href="">Tik Tok</a></li>
@@ -61,8 +80,6 @@
                     </ul>
                 </nav>
             </aside>
-
         </footer>
-
     </body>
 </html>
